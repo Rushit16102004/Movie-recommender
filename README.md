@@ -1,15 +1,12 @@
 # Movie Recommender System
 
-This is a Streamlit-based movie recommendation system that suggests movies to users based on their selections. It includes user authentication, movie search with suggestions, and a movie rating system.
+This is a Streamlit-based movie recommendation system that suggests movies to users based on their selections. It includes user authentication and movie search with suggestions.
 
 ## Features
 
-- **User Authentication**: Users can sign up and log in to access the recommender.
-- **Personalized Welcome Message**: Displays a welcome message with the user's ID after successful login.
-- **Movie Search with Suggestions**: Users can select movies from a dropdown list to get recommendations, preventing spelling mistakes.
-- **Genre and Year Filtering**: Filter movie recommendations by genre and release year.
-- **Movie Rating System**: Users can rate movies, which can be used to improve future recommendations.
-- **Interactive UI**: Built with Streamlit for an intuitive and responsive user interface.
+-   **User Authentication**: Users can sign up and log in to access the recommender.
+-   **Movie Search with Suggestions**: Users can select movies from a dropdown list to get recommendations, preventing spelling mistakes.
+-   **Interactive UI**: Built with Streamlit for an intuitive and responsive user interface.
 
 ## Setup Instructions
 
@@ -55,12 +52,12 @@ Follow these steps to set up and run the project locally.
 Ensure you have the following data files in the specified locations:
 
 -   `Movie-recommender-front-end/movie_dick.pkl`
--   `Movie-recommender-front-end/movies.pkl`
 -   `Movie-recommender-front-end/similarity.pkl`
+-   `Movie-recommender-front-end/user_profiles.db`
 -   `data/tmdb_5000_credits.csv`
 -   `data/tmdb_5000_movies.csv`
 
-These files are crucial for the recommendation engine and genre filtering. If you don't have them, you might need to generate them using the `movie-recommender.ipynb` notebook or obtain them from the original source.
+These files are crucial for the recommendation engine. If you don't have them, you might need to generate them using the `movie-recommender.ipynb` notebook or obtain them from the original source.
 
 ## Running the Application
 
